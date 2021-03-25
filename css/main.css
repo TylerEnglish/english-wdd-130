@@ -3,18 +3,6 @@
     --spacing: 15px;
     --font-size: 1.15rem;
     /* Normal Colors */
-<<<<<<< HEAD
-    --background-color: white;
-    --alt-background-color: gainsboro;
-    --font-color: black;
-    --alt-font-color: darkslategray;
-    --border-color: black;
-    /* Dark Mode Colors */
-    --dark-background-color: black;
-    --dark-alt-background-color: darkslategray;
-    --dark-font-color: white;
-    --dark-alt-font-color: gainsboro;
-=======
     --background-color: #ECE4B7;
     --alt-background-color: #E5D4ED;
     --font-color: #023C40;
@@ -25,7 +13,6 @@
     --dark-alt-background-color: #A24936;
     --dark-font-color: #EFFFC8;
     --dark-alt-font-color: #adbfc5;
->>>>>>> dev
     --dark-border-color: white;
 }
 
