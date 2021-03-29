@@ -101,7 +101,17 @@ main {
     grid-column: 2/3;
     grid-row: 2/3;
   }
+  section.full-cols{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    text-align: center;
+  }
 
+  section.full-cols .full-image{
+    width: 100%;
+    height: auto;
+  }
 footer {
     display: grid;
     grid-template-rows: auto;
