@@ -70,6 +70,37 @@ main {
     color: var(--font-color);
     background-color: var(--background-color);
 }
+#banner-wrapper img {
+    width: 100%;
+    height: auto;
+  }
+  
+  section.three-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-row: 1fr  ;
+    text-align: center;
+   
+  
+  }
+  section.three-cols .left-column-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+  }
+  section.three-cols .mid-column-text{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+  }
+  section.three-cols .right-column-img{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  section.three-cols .right-column-text{
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
 
 footer {
     display: grid;
