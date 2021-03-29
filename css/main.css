@@ -78,7 +78,7 @@ main {
   section.three-cols {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-row: 1fr  ;
+    grid-template-rows: 1fr ;
     text-align: center;
    
   
