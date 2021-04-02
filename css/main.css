@@ -39,6 +39,7 @@ header {
     border-bottom: 1px solid var(--border-color);
     color: var(--alt-font-color);
     background-color: var(--alt-background-color);
+    align-items: center;
 }
 
 header a {
