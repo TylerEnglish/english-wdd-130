@@ -72,7 +72,10 @@ main {
     background-color: var(--background-color);
 }
 #contact-form{
-    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+    padding: 1%;
     
     border: 1px solid white;
 }
@@ -80,15 +83,15 @@ textarea {
     resize: none;
 
   }
-section.tables {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    
-}
+
 table {
     align-content: center;
     text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+    padding: 1%;
+    
 }
 table, th, td {
     border: 2.5px solid white;
@@ -110,11 +113,17 @@ table, th, td {
    
   
   }
+  section.three-cols .tables{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+  }
   section.three-cols .left-column-img{
     grid-column: 1/2;
     grid-row: 1/2;
     
   }
+
   section.three-cols .mid-column-text{
     grid-column: 2/3;
     grid-row: 1/2;
@@ -139,6 +148,7 @@ table, th, td {
     width: 100%;
     height: auto;
   }
+  
 footer {
     display: grid;
     grid-template-rows: auto;
