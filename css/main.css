@@ -107,6 +107,45 @@ table, td {
   height: 50px;
   vertical-align: bottom;
 }
+
+.flip-card {
+  background-color: transparent;
+  width: 600px;
+  height: 765px;
+  perspective: 1000px; 
+  margin-left: 34%;
+  margin-right: 34%;
+  margin-bottom: 5%;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+.flip-card-back {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transform: rotateY(180deg);
+}
 li {
     border: 1px solid black;
 }
@@ -432,4 +471,13 @@ body.dark-mode table,body.dark-mode th {
 }
 body.dark-mode table,body.dark-mode td  {
     border: 2.5px solid var(--dark-border-color);
+  }
+body.dark-mode  .flip-card-front {
+    background-color: var(--dark-background-color);
+    color: var(--dark-font-color);
+  }
+body.dark-mode  .flip-card-back {
+    background-color: var(--dark-background-color);
+    color: var(--dark-font-color);
+    transform: rotateY(180deg);
   }
