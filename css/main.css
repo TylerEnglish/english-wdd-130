@@ -284,6 +284,8 @@ li:hover{
   section.full-cols .full-image{
     width: 100%;
     height: auto;
+    
+    
   }
   section.full-cols .full-image:hover{
     transform: scale(1.25);
