@@ -3,15 +3,15 @@
     /* Normal Colors */
     --background-color: #ECE4B7;
     --alt-background-color: #E5D4ED;
-    --primary-color: #023C40;
-    --alt-primary-color: #7E78D2;
-  
+    --font-color: #023C40;
+    --alt-font-color: #7E78D2;
+    --border-color: black;
     /* Dark Mode Colors */
     --dark-background-color: #212227;
     --dark-alt-background-color: #A24936;
-    --dark-primary-color: #EFFFC8;
-    --dark-alt-primary-color: #637074;
-  
+    --dark-font-color: #EFFFC8;
+    --dark-alt-font-color: #adbfc5;
+    --dark-border-color: white;
     --main-font-temp: 'Patrick Hand', cursive;
     --head-font-temp:'Carter One', cursive;
   }
