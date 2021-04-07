@@ -276,6 +276,8 @@ li:hover{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr ;
     text-align: center;
+    margin-left: 16%;
+    margin-right: 16%;
     margin-top: 5%;
   }
 
